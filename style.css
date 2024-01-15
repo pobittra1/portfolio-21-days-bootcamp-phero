@@ -1,48 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    max-width: 1020px;
-    margin: 0 auto;
-    /* background-color: red; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4rem;
+.container {
+  max-width: 1020px;
+  margin: 0 auto;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
 }
 
 /* header section start here */
-header{
-    width: 100%;
-    margin-top: .8rem;
+header {
+  width: 100%;
+  margin-top: 0.8rem;
 }
 /* navbar section start here */
-nav{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.logo img{
-    width: 40%;
+.logo img {
+  width: 40%;
 }
-nav .nav-items{
-    display: flex;
+nav .nav-items {
+  display: flex;
 }
-.nav-items li{
-    list-style-type: none;
-    margin: 0 12px;
-    font-size: 18px;
-    font-family: 'Heebo', sans-serif;
-    text-transform: capitalize;
-    font-weight: 500;
+.nav-items li {
+  list-style-type: none;
+  margin: 0 12px;
+  font-size: 18px;
+  font-family: "Heebo", sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 /* navbar section end here */
 
+/* hero section start here */
+.hero-section {
+  width: 100%;
+  margin: 4rem 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* background-color: red; */
+}
+.hero-content {
+  width: 50%;
+}
+.hero-content h1 {
+  font-family: Heebo;
+
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+.hero-content p {
+  color: gray;
+  font-family: Heebo;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: justify;
+  line-height: normal;
+}
+.hero-content .download-btn{
+    padding: 10px 1.5rem;
+    margin: 12px 0px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    background-color: #FF6464;
+}
+
+.hero-img img {
+  width: 240px;
+}
+/* hero section end here */
 
 /* header section end here */
