@@ -5,7 +5,7 @@
 }
 
 .container {
-  max-width: 1020px;
+  width: 1020px;
   margin: 0 auto;
   /* background-color: red; */
   display: flex;
@@ -75,21 +75,49 @@ nav .nav-items {
   text-align: justify;
   line-height: normal;
 }
-.hero-content .download-btn{
-    padding: 10px 1.5rem;
-    margin: 12px 0px;
-    font-weight: 500;
-    border: none;
-    outline: none;
-    font-size: 16px;
-    text-transform: capitalize;
-    color: white;
-    background-color: #FF6464;
+.hero-content .download-btn {
+  padding: 10px 1.5rem;
+  margin: 12px 0px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+  background-color: #ff6464;
 }
 
 .hero-img img {
   width: 240px;
 }
 /* hero section end here */
-
 /* header section end here */
+
+/* main section start here */
+main {
+  width: 1160px;
+}
+/* post section start here */
+.post-section {
+  width: 100%;
+  background: #EDF7FA;
+}
+.upper-line {
+  width: 80%;
+  margin: .2rem auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upper-line h5{
+    text-transform: capitalize;
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+
+}
+.upper-line p{
+   color: #00A8CC;
+}
+/* post section end here */
+/* main section end here */
