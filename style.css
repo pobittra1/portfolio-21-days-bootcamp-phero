@@ -169,8 +169,8 @@ main {
   text-transform: capitalize;
   margin: 8px 0px;
 }
-.feature-card-content .sub-title{
-  color: #8695A4;
+.feature-card-content .sub-title {
+  color: #8695a4;
   text-transform: capitalize;
 }
 .feature-card-content .sub-title span {
@@ -179,11 +179,28 @@ main {
   background: #142850;
   padding: 0px 12px;
 }
-.feature-card-content .content-info{
-  color: #21243D;
+.feature-card-content .content-info {
+  color: #21243d;
   font-size: 14px;
   line-height: normal;
   margin: 8px 0px;
 }
 /* feature section end here */
 /* main section end here */
+
+/* footer section start here */
+footer .icons {
+  margin-bottom: 0.4rem;
+}
+.icons .fa-brands {
+  font-size: 1.8rem;
+  margin-left: 1.2rem;
+}
+footer .copyright-text {
+  color: #21243d;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+
+}
+/* footer section end here */
