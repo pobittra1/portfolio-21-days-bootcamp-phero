@@ -14,7 +14,6 @@
   align-items: center;
   gap: 4rem;
   font-family: "Heebo", sans-serif;
-
 }
 
 /* header section start here */
@@ -102,52 +101,89 @@ main {
 /* post section start here */
 .post-section {
   width: 100%;
-  background: #EDF7FA;
+  background: #edf7fa;
   padding-bottom: 1.8rem;
-  margin-bottom: 6rem;
+  margin-bottom: 1.4rem;
 }
 .upper-line {
   width: 80%;
-  margin: .2rem auto;
+  margin: 0.2rem auto;
   padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.upper-line h5{
-    text-transform: capitalize;
-    font-family: "Heebo", sans-serif;
-    font-weight: 500;
+.upper-line h5 {
+  text-transform: capitalize;
+  font-family: "Heebo", sans-serif;
+  font-weight: 500;
+}
+.upper-line p {
+  color: #00a8cc;
+}
 
+.cards {
+  width: 78%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.upper-line p{
-   color: #00A8CC;
+.card {
+  padding: 1.2rem;
+  margin: 0 0.8rem;
+  background-color: white;
 }
-
-.cards{
-    width: 78%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    
+.card h2 {
+  text-transform: capitalize;
+  font-weight: 600;
+  margin-bottom: 0.6rem;
 }
-.card{
-    padding: 1.2rem;
-    margin: 0 0.8rem;
-    background-color: white;
+.card h5 {
+  margin-bottom: 0.2rem;
 }
-.card h2{
-    text-transform: capitalize;
-    font-weight: 600;
-    margin-bottom: 0.6rem;
-}
-.card h5{
-    margin-bottom: 0.2rem;
-}
-.card p{
-    font-size: 14px;
+.card p {
+  font-size: 14px;
 }
 /* post section end here */
+/* feature section start here */
+.feature-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.feature-section h4 {
+  text-transform: capitalize;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  margin: 1rem 0px;
+}
+.feature-card-content h3 {
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 8px 0px;
+}
+.feature-card-content .sub-title{
+  color: #8695A4;
+  text-transform: capitalize;
+}
+.feature-card-content .sub-title span {
+  color: white;
+  border-radius: 16px;
+  background: #142850;
+  padding: 0px 12px;
+}
+.feature-card-content .content-info{
+  color: #21243D;
+  font-size: 14px;
+  line-height: normal;
+  margin: 8px 0px;
+}
+/* feature section end here */
 /* main section end here */
